@@ -70,7 +70,7 @@
 }
 
 *, *::before, *::after { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; }
+html { -webkit-text-size-adjust: 100%; -webkit-tap-highlight-color: transparent; }
 html.lenis, html.lenis body { height: auto; }
 .lenis.lenis-smooth { scroll-behavior: auto !important; }
 .lenis.lenis-stopped { overflow: hidden; }
@@ -159,8 +159,10 @@ body::after {
   overflow: hidden;
   isolation: isolate;
   white-space: nowrap;
-  transition: color .5s var(--ease), box-shadow .5s var(--ease);
+  transition: color .5s var(--ease), box-shadow .5s var(--ease), transform .25s var(--ease);
 }
+/* En móvil, al tocar, el botón se hunde un poco en vez del recuadro azul del navegador */
+.btn:active, .menu-btn:active { transform: scale(.96); }
 .btn::before {
   content: '';
   position: absolute;
