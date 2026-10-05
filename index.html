@@ -1,0 +1,1607 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La Casa Barbershop · Barbería en Lloret de Mar</title>
+<meta name="description" content="La Casa Barbershop, barbería en Lloret de Mar. Degradados, corte y barba, perfilados y limpieza facial. Billar y Play mientras esperas. Reserva tu cita en Booksy.">
+<meta name="theme-color" content="#0b0b0c">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b0b0c'/%3E%3Cpath d='M13 33 32 17l19 16' fill='none' stroke='%235ee6c3' stroke-width='6' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M21 31v15h22V31' fill='none' stroke='%23f3efe6' stroke-width='6' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Permanent+Marker&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script>
+  // Activa las animaciones solo si hay JS y la persona no pide movimiento reducido
+  (function () {
+    var d = document.documentElement;
+    d.classList.add('js');
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      d.classList.add('motion', 'is-loading');
+      setTimeout(function () { d.classList.remove('is-loading'); }, 6000);
+    }
+  })();
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BarberShop",
+  "name": "La Casa Barbershop",
+  "description": "Barbería en Lloret de Mar: degradados, corte y barba, perfilados y limpieza facial. Billar y Play mientras esperas.",
+  "url": "https://tomaevmiron.github.io/la-casa-barbershop/",
+  "telephone": "+34 655 22 72 07",
+  "priceRange": "3 € – 30 €",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Carrer de l'Aiguaviva, 4",
+    "postalCode": "17310",
+    "addressLocality": "Lloret de Mar",
+    "addressRegion": "Girona",
+    "addressCountry": "ES"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 41.7048872, "longitude": 2.8428469 },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], "opens": "09:30", "closes": "13:30" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], "opens": "16:00", "closes": "20:30" }
+  ],
+  "sameAs": ["https://booksy.com/es-es/188473_la-casa-barbershop_barberia_50365_canyelles"]
+}
+</script>
+<style>
+:root {
+  --ink: #0b0b0c;
+  --ink-2: #141416;
+  --ink-3: #1e1e21;
+  --bone: #f3efe6;
+  --bone-2: #cfcabf;
+  --mint: #5ee6c3;
+  --pink: #ff6b9a;
+  --muted: #8f8b83;
+  --muted-dark: #6a665e;
+  --line: rgba(243, 239, 230, .13);
+  --line-dark: rgba(11, 11, 12, .14);
+  --display: 'Anton', Impact, 'Arial Narrow Bold', sans-serif;
+  --tag: 'Permanent Marker', 'Comic Sans MS', cursive;
+  --sans: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --gutter: clamp(16px, 4vw, 64px);
+  --ease: cubic-bezier(.16, 1, .3, 1);
+  --section-pad: clamp(96px, 14vh, 170px);
+  --radius: clamp(18px, 2vw, 26px);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-stopped { overflow: hidden; }
+body {
+  margin: 0;
+  background: var(--ink);
+  color: var(--bone);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+.is-loading body { overflow: hidden; }
+img { display: block; max-width: 100%; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+:focus-visible { outline: 2px solid var(--mint); outline-offset: 4px; border-radius: 4px; }
+::selection { background: var(--mint); color: var(--ink); }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* Grano de película por encima de todo */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 95;
+  pointer-events: none;
+  opacity: .07;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* ---------- Tipografía ---------- */
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+  font: 600 12px/1.4 var(--sans);
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: var(--mint);
+}
+.eyebrow::before { content: ''; width: 28px; height: 2px; background: currentColor; }
+.on-bone .eyebrow { color: var(--ink); }
+.display {
+  margin: 0;
+  font-family: var(--display);
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: .88;
+  letter-spacing: .004em;
+}
+.h-xl { font-size: clamp(3.4rem, 11vw, 10.5rem); }
+.h-lg { font-size: clamp(3rem, 8vw, 7.4rem); }
+.h-md { font-size: clamp(2.6rem, 5.6vw, 5.4rem); }
+.ln { display: block; overflow: hidden; padding: .08em 0 .04em; margin: -.08em 0 -.04em; }
+.ln > span { display: inline-block; }
+.tag {
+  display: inline-block;
+  font-family: var(--tag);
+  font-weight: 400;
+  color: var(--pink);
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: 0;
+  transform: rotate(-6deg);
+}
+.c-mint { color: var(--mint); }
+.c-pink { color: var(--pink); }
+.lead { font-size: clamp(1.02rem, 1.3vw, 1.2rem); line-height: 1.6; max-width: 34em; color: var(--bone-2); margin: 0; }
+.on-bone .lead { color: var(--muted-dark); }
+
+/* ---------- Botones y enlaces ---------- */
+.btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .6em;
+  height: 54px;
+  padding: 0 26px;
+  border-radius: 999px;
+  font: 600 15px/1 var(--sans);
+  overflow: hidden;
+  isolation: isolate;
+  white-space: nowrap;
+  transition: color .5s var(--ease), box-shadow .5s var(--ease);
+}
+.btn::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  background: var(--pink);
+  transform: translateY(101%);
+  transition: transform .6s var(--ease);
+}
+.btn:hover::before { transform: none; }
+.btn svg { width: 18px; height: 18px; flex: none; }
+.btn-mint { background: var(--mint); color: var(--ink); }
+.btn-ink { background: var(--ink); color: var(--bone); }
+.btn-ink:hover { color: var(--ink); }
+.btn-ghost { box-shadow: inset 0 0 0 1.5px currentColor; }
+.btn-ghost::before { background: var(--bone); }
+.btn-ghost:hover { color: var(--ink); box-shadow: inset 0 0 0 1.5px var(--bone); }
+.on-bone .btn-ghost::before { background: var(--ink); }
+.on-bone .btn-ghost:hover { color: var(--bone); box-shadow: inset 0 0 0 1.5px var(--ink); }
+
+.link-arrow {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: .55em;
+  padding-bottom: 6px;
+  font: 600 15px/1.2 var(--sans);
+}
+.link-arrow::after {
+  content: '';
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 1.5px;
+  background: currentColor;
+  transform-origin: right;
+  transform: scaleX(.35);
+  opacity: .5;
+  transition: transform .8s var(--ease), opacity .4s;
+}
+.link-arrow:hover::after { transform-origin: left; transform: scaleX(1); opacity: 1; }
+.link-arrow i { font-style: normal; transition: transform .6s var(--ease); }
+.link-arrow:hover i { transform: translateX(5px); }
+
+/* ---------- Preloader ---------- */
+.loader { display: none; }
+.is-loading .loader {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--ink);
+  color: var(--bone);
+}
+.loader-word {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  padding: .06em 0 0;
+  font: 400 clamp(4.4rem, 17vw, 14rem)/.9 var(--display);
+  text-transform: uppercase;
+}
+.loader-word span { display: inline-block; }
+.loader-word .gap { width: .26em; }
+.loader-tag {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: clamp(1.6rem, 6vw, 5rem) 0 0 clamp(-1rem, 2vw, 3rem);
+  font-size: clamp(1.4rem, 4.2vw, 3.4rem);
+}
+.loader-foot {
+  position: absolute;
+  left: var(--gutter);
+  right: var(--gutter);
+  bottom: clamp(20px, 4vh, 40px);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font: 600 12px/1 var(--sans);
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.loader-count { font: 400 clamp(2.4rem, 6vw, 4.4rem)/.8 var(--display); letter-spacing: 0; color: var(--mint); }
+
+/* ---------- Cabecera ---------- */
+.header {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 16px var(--gutter);
+  color: var(--bone);
+  transition: transform .7s var(--ease), background-color .4s, color .4s;
+}
+.header.is-scrolled { background: rgba(11, 11, 12, .74); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); }
+.header.is-hidden { transform: translateY(-105%); }
+.header.on-light { color: var(--ink); }
+.header.on-light.is-scrolled { background: rgba(243, 239, 230, .82); }
+.header.on-mint.is-scrolled { background: rgba(94, 230, 195, .86); }
+.menu-open .header { color: var(--bone); background: transparent; transform: none; }
+
+.brand { display: inline-flex; align-items: center; gap: 10px; }
+.brand-mark { width: 34px; height: 26px; fill: none; stroke: var(--mint); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.brand-mark .door { stroke: currentColor; }
+.on-mint .brand-mark { stroke: var(--ink); }
+.brand-word { font: 400 26px/1 var(--display); text-transform: uppercase; letter-spacing: .02em; }
+.brand-sub { font: 15px/1 var(--tag); color: var(--pink); transform: rotate(-7deg) translateY(6px); margin-left: -4px; }
+.on-light .brand-sub, .on-mint .brand-sub { color: #d6336c; }
+
+.nav { display: flex; gap: clamp(18px, 2.4vw, 34px); font: 500 14px/1 var(--sans); }
+.nav a { position: relative; padding: 6px 0; }
+.nav a::after {
+  content: '';
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 1.5px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform .6s var(--ease);
+}
+.nav a:hover::after { transform: scaleX(1); transform-origin: left; }
+.header-right { display: flex; align-items: center; gap: 10px; }
+.header-cta { height: 46px; padding: 0 22px; font-size: 14px; }
+.on-mint .header-cta { background: var(--ink); color: var(--bone); }
+.menu-btn {
+  display: none;
+  position: relative;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px currentColor;
+}
+.menu-btn span {
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  height: 2px;
+  background: currentColor;
+  transition: transform .5s var(--ease), top .5s var(--ease);
+}
+.menu-btn span:first-child { top: 19px; }
+.menu-btn span:last-child { top: 26px; }
+.menu-open .menu-btn span:first-child { top: 22px; transform: rotate(45deg); }
+.menu-open .menu-btn span:last-child { top: 22px; transform: rotate(-45deg); }
+
+.menu {
+  position: fixed;
+  inset: 0;
+  z-index: 45;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 28px;
+  padding: 110px var(--gutter) 36px;
+  background: var(--ink);
+  visibility: hidden;
+  clip-path: inset(0 0 100% 0);
+  transition: clip-path .8s var(--ease), visibility 0s .8s;
+}
+.menu-open .menu { visibility: visible; clip-path: inset(0); transition: clip-path .8s var(--ease), visibility 0s; }
+.menu nav { display: flex; flex-direction: column; }
+.menu nav a {
+  font: 400 clamp(2.8rem, 13vw, 5.6rem)/1 var(--display);
+  text-transform: uppercase;
+  padding: 4px 0;
+  transition: color .3s;
+}
+.menu nav a:hover { color: var(--mint); }
+.menu-foot { display: flex; flex-wrap: wrap; gap: 10px; }
+.menu-foot .btn { flex: 1 1 160px; }
+
+@media (max-width: 960px) {
+  .nav { display: none; }
+  .menu-btn { display: block; }
+}
+@media (max-width: 560px) {
+  .header-cta { display: none; }
+}
+
+/* ---------- Hero ---------- */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  align-items: flex-end;
+  padding: 120px var(--gutter) clamp(28px, 5vh, 52px);
+  overflow: hidden;
+  isolation: isolate;
+}
+.hero-media {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: min(60%, 980px);
+  z-index: -1;
+  overflow: hidden;
+}
+.hero-media img {
+  width: 100%;
+  height: 112%;
+  object-fit: cover;
+  object-position: 50% 25%;
+  filter: grayscale(.2) contrast(1.08);
+}
+.hero-media::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, var(--ink) 0%, rgba(11, 11, 12, .55) 28%, rgba(11, 11, 12, 0) 62%),
+    linear-gradient(180deg, rgba(11, 11, 12, .5) 0%, rgba(11, 11, 12, 0) 30%, rgba(11, 11, 12, .2) 62%, var(--ink) 100%);
+}
+.hero-inner { position: relative; width: 100%; }
+.hero-head { position: relative; }
+.hero-title { font-size: clamp(3.5rem, 15.4vw, 15rem); line-height: .84; margin-top: 22px; }
+.hero-title .dot { color: var(--mint); }
+.hero-tag {
+  position: absolute;
+  left: 56%;
+  top: 62%;
+  font-size: clamp(1.6rem, 4.4vw, 4rem);
+  transform: rotate(-9deg);
+}
+.hero-foot {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  gap: 22px 48px;
+  margin-top: clamp(26px, 4.4vh, 48px);
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+.hero-foot .lead { max-width: 30em; }
+.hero-meta { display: flex; flex-wrap: wrap; gap: 10px 20px; margin-top: 16px; font: 500 14px/1.4 var(--sans); color: var(--bone-2); }
+.hero-meta a { display: inline-flex; align-items: center; gap: 8px; }
+.stars { color: var(--mint); letter-spacing: .08em; }
+.hero-ctas { display: flex; flex-wrap: wrap; gap: 12px; }
+.hero-scroll {
+  position: absolute;
+  right: var(--gutter);
+  top: 50%;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  writing-mode: vertical-rl;
+  font: 600 11px/1 var(--sans);
+  letter-spacing: .26em;
+  text-transform: uppercase;
+  color: var(--bone-2);
+}
+.hero-scroll::after { content: ''; width: 1.5px; height: 64px; background: linear-gradient(var(--mint), transparent); }
+
+.status { display: inline-flex; align-items: center; gap: 10px; }
+.status i { width: 8px; height: 8px; border-radius: 50%; background: var(--muted); flex: none; }
+.status.is-open i { background: var(--mint); animation: pulse 2.2s infinite; }
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(94, 230, 195, .55); }
+  70% { box-shadow: 0 0 0 10px rgba(94, 230, 195, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(94, 230, 195, 0); }
+}
+
+@media (max-width: 860px) {
+  .hero-media { width: 100%; }
+  .hero-media img { object-position: 60% 20%; }
+  .hero-media::after {
+    background: linear-gradient(180deg, rgba(11, 11, 12, .55) 0%, rgba(11, 11, 12, .1) 30%, rgba(11, 11, 12, .55) 58%, var(--ink) 92%);
+  }
+  .hero-foot { grid-template-columns: 1fr; }
+  .hero-scroll { display: none; }
+}
+@media (max-width: 560px) {
+  .hero-title { font-size: 19.5vw; }
+  .hero-tag { left: 60%; top: 70%; font-size: 1.3rem; }
+}
+@media (max-width: 480px) {
+  .hero-ctas .btn { flex: 1 1 100%; }
+}
+
+/* ---------- Cintas ---------- */
+.tapes {
+  position: relative;
+  height: clamp(150px, 19vw, 250px);
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
+.tape {
+  grid-area: 1 / 1;
+  width: 112%;
+  padding: 12px 0 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  color: var(--ink);
+}
+.tape-mint { background: var(--mint); transform: rotate(-3deg); z-index: 2; }
+.tape-pink { background: var(--pink); transform: rotate(2.6deg); }
+.tape-track { display: inline-flex; animation: tape 32s linear infinite; }
+.tape-pink .tape-track { animation-direction: reverse; animation-duration: 38s; }
+.tape-track span {
+  display: inline-flex;
+  align-items: center;
+  gap: .55em;
+  padding-right: .55em;
+  font: 400 clamp(1.5rem, 3vw, 2.7rem)/1 var(--display);
+  text-transform: uppercase;
+}
+.tape-track span::after { content: ''; width: .32em; height: .32em; background: currentColor; transform: rotate(45deg); }
+@keyframes tape { to { transform: translateX(-50%); } }
+
+/* ---------- Manifiesto ---------- */
+.manifesto { padding: var(--section-pad) var(--gutter) clamp(72px, 10vh, 120px); }
+.manifesto-inner { max-width: 1260px; margin: 0 auto; }
+.manifesto-text {
+  margin: 30px 0 0;
+  font: 500 clamp(1.85rem, 4.3vw, 4.1rem)/1.12 var(--sans);
+  letter-spacing: -.025em;
+}
+.manifesto-text .hl-m { color: var(--mint); }
+.manifesto-text .hl-p { color: var(--pink); }
+.motion .manifesto-text .w { opacity: .16; }
+.manifesto-foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; margin-top: clamp(36px, 6vh, 64px); }
+.manifesto-foot p { margin: 0; max-width: 30em; color: var(--bone-2); }
+
+/* ---------- La casa por dentro ---------- */
+.features { padding: clamp(40px, 6vh, 72px) var(--gutter) var(--section-pad); }
+.section-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px 48px;
+  max-width: 1320px;
+  margin: 0 auto clamp(40px, 6vw, 80px);
+}
+.section-head .display { margin-top: 18px; }
+.section-head .lead { max-width: 26em; }
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(14px, 2vw, 26px);
+  max-width: 1320px;
+  margin: 0 auto;
+  align-items: start;
+}
+.feature {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  border-radius: var(--radius);
+  background: var(--ink-2);
+}
+.feature:nth-child(2) { margin-top: clamp(0px, 6vw, 88px); }
+.feature-media { position: relative; aspect-ratio: 4 / 5; overflow: hidden; }
+.feature-media img { width: 100%; height: 118%; object-fit: cover; transition: filter .8s var(--ease); filter: grayscale(.25); }
+.feature:hover .feature-media img { filter: none; }
+.feature-num {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  z-index: 2;
+  padding: 6px 12px 5px;
+  border-radius: 999px;
+  background: var(--ink);
+  font: 400 15px/1 var(--display);
+  letter-spacing: .06em;
+  color: var(--mint);
+}
+.feature figcaption { padding: 22px 24px 28px; }
+.feature h3 { margin: 0 0 8px; font: 400 clamp(2rem, 2.8vw, 2.7rem)/1 var(--display); text-transform: uppercase; }
+.feature p { margin: 0; color: var(--bone-2); }
+@media (max-width: 860px) {
+  .feature-grid { grid-template-columns: 1fr; }
+  .feature:nth-child(2) { margin-top: 0; }
+  .feature-media { aspect-ratio: 16 / 11; }
+}
+
+/* ---------- Servicios ---------- */
+.services {
+  position: relative;
+  z-index: 2;
+  padding: var(--section-pad) var(--gutter);
+  border-radius: clamp(26px, 4vw, 52px);
+  background: var(--bone);
+  color: var(--ink);
+}
+.services-grid {
+  display: grid;
+  grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr);
+  gap: clamp(36px, 6vw, 110px);
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.services-aside { position: sticky; top: 96px; align-self: start; }
+.services-aside .display { margin-top: 18px; font-size: clamp(3.4rem, 8vw, 7.6rem); }
+.services-aside .tag { font-size: clamp(1.4rem, 2.6vw, 2.2rem); margin: 6px 0 0 clamp(60px, 10vw, 170px); color: #d6336c; }
+.svc-frame {
+  position: relative;
+  height: min(54vh, 520px);
+  margin-top: 30px;
+  overflow: hidden;
+  border-radius: var(--radius);
+  background: var(--ink);
+}
+.svc-frame img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transform: scale(1.08);
+  transition: opacity .7s var(--ease), transform 1.4s var(--ease);
+}
+.svc-frame img.is-active { opacity: 1; transform: none; }
+.svc-frame-label {
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+  padding: 9px 16px 8px;
+  border-radius: 999px;
+  background: var(--mint);
+  color: var(--ink);
+  font: 400 16px/1 var(--display);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.svc-group { padding: 26px 0 8px; border-top: 2px solid var(--ink); }
+.svc-group + .svc-group { margin-top: clamp(28px, 4vw, 48px); }
+.svc-group-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; }
+.svc-group-head h3 { margin: 0; font: 400 clamp(2.2rem, 3.6vw, 3.2rem)/1 var(--display); text-transform: uppercase; }
+.svc-group-head span { font: 600 12px/1 var(--sans); letter-spacing: .2em; text-transform: uppercase; color: var(--muted-dark); }
+.svc-list { list-style: none; margin: 10px 0 0; padding: 0; }
+.svc a {
+  display: grid;
+  grid-template-columns: auto minmax(24px, 1fr) auto;
+  align-items: baseline;
+  gap: 14px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--line-dark);
+  transition: padding .5s var(--ease), color .3s;
+}
+.svc a:hover { padding-left: 12px; }
+.svc a:hover .svc-price { color: #d6336c; }
+.svc-name { font: 600 clamp(1rem, 1.35vw, 1.18rem)/1.3 var(--sans); }
+.svc-name small { display: block; margin-top: 3px; font-weight: 500; font-size: 13px; color: var(--muted-dark); }
+.svc-dots { align-self: center; height: 0; border-bottom: 2px dotted rgba(11, 11, 12, .25); }
+.svc-price { font: 400 clamp(1.6rem, 2.3vw, 2.1rem)/1 var(--display); white-space: nowrap; transition: color .3s; }
+.svc-price small { margin-right: 6px; font: 600 10px/1 var(--sans); letter-spacing: .14em; text-transform: uppercase; vertical-align: middle; color: var(--muted-dark); }
+.services-note { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 28px; margin-top: 36px; }
+.services-note p { margin: 0; max-width: 32em; font-size: 14px; color: var(--muted-dark); }
+@media (max-width: 900px) {
+  .services-grid { grid-template-columns: 1fr; }
+  .services-aside { position: static; }
+  .svc-frame { height: auto; aspect-ratio: 16 / 11; }
+}
+
+/* ---------- Estilos (galería horizontal) ---------- */
+.work { position: relative; overflow: hidden; padding: var(--section-pad) 0; }
+.work-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px 40px;
+  padding: 0 var(--gutter);
+  margin-bottom: clamp(28px, 4.5vh, 52px);
+}
+.work-head .display { margin-top: 16px; }
+.work-head .lead { max-width: 24em; }
+.work-viewport {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+.work-viewport::-webkit-scrollbar { display: none; }
+.work-track { display: flex; gap: clamp(12px, 1.6vw, 22px); width: max-content; padding: 0 var(--gutter); }
+.shot { flex: none; width: clamp(236px, 27vw, 400px); margin: 0; scroll-snap-align: center; }
+.shot-media { aspect-ratio: 3 / 4; overflow: hidden; border-radius: var(--radius); background: var(--ink-2); }
+.shot-media img { width: 100%; height: 100%; object-fit: cover; transition: transform 1.2s var(--ease); }
+.shot:hover .shot-media img { transform: scale(1.05); }
+.shot figcaption { display: flex; align-items: baseline; gap: 12px; margin-top: 14px; font: 600 15px/1.3 var(--sans); }
+.shot figcaption b { font: 400 15px/1 var(--display); letter-spacing: .06em; color: var(--mint); }
+.shot-cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  aspect-ratio: 3 / 4;
+  padding: clamp(22px, 2.4vw, 32px);
+  border-radius: var(--radius);
+  background: var(--mint);
+  color: var(--ink);
+}
+.shot-cta .display { font-size: clamp(2.6rem, 4.2vw, 4.2rem); line-height: .94; }
+.shot-cta .btn { align-self: flex-start; }
+@media (min-width: 900px) {
+  .motion .work { height: 100vh; min-height: 640px; padding: 96px 0 6vh; display: flex; flex-direction: column; justify-content: center; }
+  .motion .work-viewport { overflow: visible; }
+  .motion .shot { width: min(26vw, 44vh); }
+}
+
+/* ---------- Equipo ---------- */
+.team { position: relative; padding: var(--section-pad) var(--gutter); overflow: hidden; isolation: isolate; }
+.team-bg { position: absolute; inset: 0; z-index: -1; }
+.team-bg img { width: 100%; height: 120%; object-fit: cover; opacity: .45; }
+.team-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, var(--ink) 0%, rgba(11, 11, 12, .55) 30%, rgba(11, 11, 12, .55) 70%, var(--ink) 100%);
+}
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(14px, 2vw, 26px);
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.member {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: clamp(320px, 34vw, 460px);
+  padding: clamp(24px, 3vw, 40px);
+  overflow: hidden;
+  border: 1.5px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(11, 11, 12, .6);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  transition: border-color .5s;
+}
+.member:hover { border-color: rgba(94, 230, 195, .6); }
+.member:nth-child(2):hover { border-color: rgba(255, 107, 154, .6); }
+.member-letter {
+  position: absolute;
+  right: -2%;
+  bottom: -12%;
+  font: 400 clamp(11rem, 26vw, 22rem)/1 var(--display);
+  color: transparent;
+  -webkit-text-stroke: 2px var(--mint);
+  pointer-events: none;
+  transition: color .6s var(--ease), transform .9s var(--ease);
+}
+.member:nth-child(2) .member-letter { -webkit-text-stroke-color: var(--pink); }
+.member:hover .member-letter { color: var(--mint); transform: rotate(-5deg) translateY(-4%); }
+.member:nth-child(2):hover .member-letter { color: var(--pink); }
+.member-role { font: 600 12px/1.4 var(--sans); letter-spacing: .2em; text-transform: uppercase; color: var(--bone-2); }
+.member h3 { margin: 10px 0 0; font: 400 clamp(3rem, 6vw, 5.4rem)/.9 var(--display); text-transform: uppercase; }
+.member p { position: relative; max-width: 22em; margin: 14px 0 0; color: var(--bone-2); }
+.member .link-arrow { position: relative; align-self: flex-start; margin-top: 28px; }
+@media (max-width: 700px) {
+  .team-grid { grid-template-columns: 1fr; }
+}
+
+/* ---------- Cifras ---------- */
+.stats { padding: clamp(56px, 8vw, 104px) var(--gutter); background: var(--mint); color: var(--ink); }
+.stats-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 32px 24px; max-width: 1320px; margin: 0 auto; }
+.stat { border-left: 2px solid var(--ink); padding-left: clamp(14px, 1.6vw, 22px); }
+.stat strong { display: block; font: 400 clamp(3.2rem, 6.6vw, 6.2rem)/.9 var(--display); }
+.stat strong sup { font-size: .42em; vertical-align: top; position: relative; top: .2em; margin-left: .06em; }
+.stat > span { display: block; margin-top: 10px; font: 600 14px/1.35 var(--sans); }
+@media (max-width: 760px) {
+  .stats-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+/* ---------- Opiniones ---------- */
+.reviews { padding: var(--section-pad) var(--gutter); }
+.reviews-inner { max-width: 1320px; margin: 0 auto; }
+.quote { position: relative; margin: 34px 0 0; }
+.quote blockquote { margin: 0; font: 400 clamp(2.4rem, 6.6vw, 6.4rem)/.94 var(--display); text-transform: uppercase; }
+.quote blockquote .mark { color: var(--pink); }
+.quote figcaption { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin-top: 26px; font: 500 15px/1.4 var(--sans); color: var(--bone-2); }
+.quote figcaption b { color: var(--bone); font-weight: 600; }
+.reviews-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  gap: clamp(28px, 5vw, 80px);
+  margin-top: clamp(48px, 8vw, 96px);
+  padding-top: clamp(28px, 4vw, 44px);
+  border-top: 1px solid var(--line);
+}
+.reviews-grid h3 { margin: 0 0 18px; font: 600 12px/1.4 var(--sans); letter-spacing: .22em; text-transform: uppercase; color: var(--muted); }
+.chips { display: flex; flex-wrap: wrap; gap: 10px; }
+.chip { padding: 10px 18px; border: 1.5px solid var(--line); border-radius: 999px; font: 500 15px/1.2 var(--sans); transition: border-color .4s, color .4s; }
+.chip:hover { border-color: var(--mint); color: var(--mint); }
+.scores { display: grid; gap: 12px; }
+.score {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 20px 22px;
+  border-radius: 18px;
+  background: var(--ink-2);
+  transition: background .4s;
+}
+.score:hover { background: var(--ink-3); }
+.score strong { font: 400 clamp(2.4rem, 3.6vw, 3.2rem)/1 var(--display); }
+.score div { flex: 1; }
+.score div b { display: block; font-weight: 600; }
+.score div span { font-size: 14px; color: var(--muted); }
+.score i { font-style: normal; color: var(--mint); transition: transform .5s var(--ease); }
+.score:hover i { transform: translateX(4px); }
+@media (max-width: 860px) {
+  .reviews-grid { grid-template-columns: 1fr; }
+}
+
+/* ---------- Visítanos ---------- */
+.visit { padding: 0 var(--gutter) var(--section-pad); }
+.visit-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
+  gap: clamp(32px, 5vw, 84px);
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.visit-info .display { margin-top: 18px; }
+.address { margin: 30px 0 0; font: 500 clamp(1.25rem, 1.9vw, 1.6rem)/1.35 var(--sans); font-style: normal; }
+.address a { display: inline-block; margin-top: 8px; color: var(--mint); }
+.visit .status { margin-top: 26px; padding: 9px 16px; border-radius: 999px; background: var(--ink-2); font: 500 14px/1.2 var(--sans); }
+.hours { list-style: none; margin: 18px 0 0; padding: 0; }
+.hours li { display: flex; justify-content: space-between; gap: 16px; padding: 12px 0; border-bottom: 1px solid var(--line); font-size: 15px; }
+.hours li span:last-child { color: var(--bone-2); font-variant-numeric: tabular-nums; text-align: right; }
+.hours li.is-closed span:last-child { color: var(--muted); }
+.hours li.is-today { color: var(--mint); }
+.hours li.is-today span:last-child { color: var(--mint); }
+.hours li.is-today span:first-child::after { content: 'Hoy'; margin-left: 10px; padding: 2px 8px; border-radius: 999px; background: var(--mint); color: var(--ink); font: 600 11px/1.6 var(--sans); letter-spacing: .08em; text-transform: uppercase; vertical-align: 1px; }
+.visit-ctas { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+.visit-badges { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; }
+.visit-badges span { padding: 7px 14px; border-radius: 999px; background: var(--ink-2); font: 500 13px/1.3 var(--sans); color: var(--bone-2); }
+.map { position: relative; min-height: 460px; overflow: hidden; border-radius: var(--radius); background: var(--ink-2); }
+.map iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; filter: invert(.9) hue-rotate(180deg) saturate(.55) contrast(.92); }
+.map-chip {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: var(--mint);
+  color: var(--ink);
+  font: 600 14px/1 var(--sans);
+  pointer-events: none;
+}
+.map-chip svg { width: 16px; height: 16px; }
+@media (max-width: 900px) {
+  .visit-grid { grid-template-columns: 1fr; }
+  .map { min-height: 340px; }
+}
+
+/* ---------- CTA final ---------- */
+.cta {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-height: 92vh;
+  min-height: 92svh;
+  padding: var(--section-pad) var(--gutter);
+  overflow: hidden;
+  isolation: isolate;
+  text-align: center;
+}
+.cta-bg { position: absolute; inset: 0; z-index: -1; }
+.cta-bg img { width: 100%; height: 120%; object-fit: cover; opacity: .42; }
+.cta-bg::after { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at center, rgba(11, 11, 12, .35) 0%, rgba(11, 11, 12, .85) 70%, var(--ink) 100%); }
+.cta-inner { position: relative; }
+.cta-title { font-size: clamp(4rem, 16.5vw, 16rem); line-height: .84; }
+.cta-tag { position: absolute; right: 0; top: -1.1em; font-size: clamp(1.5rem, 4vw, 3.6rem); transform: rotate(-8deg); }
+@media (max-width: 560px) {
+  .cta-title { font-size: 21vw; }
+}
+.cta p { margin: 26px auto 0; max-width: 30em; color: var(--bone-2); font-size: clamp(1rem, 1.3vw, 1.18rem); }
+.cta-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 34px; }
+
+/* ---------- Pie ---------- */
+.footer { padding: clamp(56px, 8vw, 96px) var(--gutter) 28px; border-top: 1px solid var(--line); overflow: hidden; }
+.footer-grid { display: grid; grid-template-columns: 1.3fr repeat(3, minmax(0, 1fr)); gap: 36px 28px; max-width: 1320px; margin: 0 auto; }
+.footer h4 { margin: 0 0 14px; font: 600 12px/1.4 var(--sans); letter-spacing: .22em; text-transform: uppercase; color: var(--muted); }
+.footer p, .footer ul { margin: 0; padding: 0; list-style: none; color: var(--bone-2); font-size: 15px; }
+.footer li + li { margin-top: 6px; }
+.footer a:hover { color: var(--mint); }
+.footer-intro p { margin-top: 16px; max-width: 22em; }
+.footer-word {
+  margin: clamp(48px, 7vw, 90px) 0 0;
+  font: 400 clamp(5rem, 24.5vw, 26rem)/.8 var(--display);
+  text-transform: uppercase;
+  text-align: center;
+  color: transparent;
+  -webkit-text-stroke: 1.5px rgba(243, 239, 230, .22);
+  white-space: nowrap;
+  user-select: none;
+}
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px 24px;
+  max-width: 1320px;
+  margin: 28px auto 0;
+  font-size: 13px;
+  color: var(--muted);
+}
+@media (max-width: 860px) {
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .footer-intro { grid-column: 1 / -1; }
+}
+@media (max-width: 760px) {
+  .footer { padding-bottom: 104px; }
+}
+
+/* ---------- Barra fija en móvil ---------- */
+.mbar {
+  position: fixed;
+  left: 12px;
+  right: 12px;
+  bottom: 12px;
+  z-index: 40;
+  display: none;
+  gap: 8px;
+  padding: 7px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(20, 20, 22, .88);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+  transition: transform .6s var(--ease);
+}
+.mbar .btn { flex: 1; height: 48px; padding: 0 16px; }
+@media (max-width: 760px) {
+  .mbar { display: flex; }
+  .js .mbar { transform: translateY(150%); }
+  .js .mbar.is-on { transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition-duration: .01ms !important; animation: none !important; }
+}
+</style>
+</head>
+<body>
+
+<div class="loader" aria-hidden="true">
+  <div class="loader-word">
+    <span>L</span><span>a</span><span class="gap"></span><span>C</span><span>a</span><span>s</span><span>a</span>
+  </div>
+  <span class="tag loader-tag">barbershop</span>
+  <div class="loader-foot"><span>Lloret de Mar</span><span class="loader-count">0</span></div>
+</div>
+
+<header class="header" id="header">
+  <a class="brand" href="#top" aria-label="La Casa Barbershop, inicio">
+    <svg class="brand-mark" viewBox="0 0 40 30" aria-hidden="true"><path d="M3 15 20 3l17 12"/><path class="door" d="M10 15v12h20V15"/></svg>
+    <span class="brand-word">La Casa</span>
+    <span class="brand-sub">barbershop</span>
+  </a>
+  <nav class="nav" aria-label="Principal">
+    <a href="#servicios">Servicios</a>
+    <a href="#estilos">Estilos</a>
+    <a href="#equipo">Equipo</a>
+    <a href="#opiniones">Opiniones</a>
+    <a href="#visitanos">Visítanos</a>
+  </nav>
+  <div class="header-right">
+    <a class="btn btn-mint header-cta" href="https://booksy.com/es-es/188473_la-casa-barbershop_barberia_50365_canyelles" target="_blank" rel="noopener"><span>Reservar cita</span></a>
+    <button class="menu-btn" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="menu" id="menu">
+  <nav aria-label="Menú móvil">
+    <a href="#servicios">Servicios</a>
+    <a href="#estilos">Estilos</a>
+    <a href="#equipo">Equipo</a>
+    <a href="#opiniones">Opiniones</a>
+    <a href="#visitanos">Visítanos</a>
+  </nav>
+  <div class="menu-foot">
+    <a class="btn btn-mint" href="https://booksy.com/es-es/188473_la-casa-barbershop_barberia_50365_canyelles" target="_blank" rel="noopener"><span>Reservar en Booksy</span></a>
+    <a class="btn btn-ghost" href="tel:+34655227207"><span>Llamar</span></a>
+  </div>
+</div>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero-media">
+      <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=1800&q=80" alt="Barbero tatuado perfilando con navaja el degradado de un cliente" fetchpriority="high">
+    </div>
+    <div class="hero-inner">
+      <div class="hero-head">
+        <p class="eyebrow hero-eyebrow">Barbería en Lloret de Mar</p>
+        <h1 class="display hero-title" aria-label="Bienvenido a casa">
+          <span class="ln"><span>Bienvenido</span></span>
+          <span class="ln"><span>a casa<span class="dot">.</span></span></span>
+        </h1>
+        <span class="tag hero-tag" aria-hidden="true">fresh cuts</span>
+      </div>
+      <div class="hero-foot">
+        <div class="hero-copy">
+          <p class="lead">Degradados, barba y perfilados con buen rollo. Y mientras esperas tu turno, echa una partida al billar o a la Play.</p>
+          <div class="hero-meta">
+            <a href="https://booksy.com/es-es/188473_la-casa-barbershop_barberia_50365_canyelles" target="_blank" rel="noopener"><span class="stars" aria-hidden="true">★★★★★</span> 4,9 en Booksy</a>
+            <span class="status js-status"><i></i><span>Lunes a sábado · 9:30–13:30 y 16:00–20:30</span></span>
+          </div>
+        </div>
+        <div class="hero-ctas">
+          <a class="btn btn-mint" href="https://booksy.com/es-es/188473_la-casa-barbershop_barberia_50365_canyelles" target="_blank" rel="noopener"><span>Reservar cita</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+          <a class="btn btn-ghost" href="tel:+34655227207"><span>655 22 72 07</span></a>
+        </div>
+      </div>
+    </div>
+    <span class="hero-scroll" aria-hidden="true">Desliza</span>
+  </section>
+
+  <!-- CINTAS -->
+  <div class="tapes" aria-hidden="true">
+    <div class="tape tape-pink"><div class="tape-track">
+      <span>Billar</span><span>Play</span><span>Buen rollo</span><span>Sin prisas</span><span>Lloret de Mar</span><span>Billar</span><span>Play</span><span>Buen rollo</span><span>Sin prisas</span><span>Lloret de Mar</span>
+      <span>Billar</span><span>Play</span><span>Buen rollo</span><span>Sin prisas</span><span>Lloret de Mar</span><span>Billar</span><span>Play</span><span>Buen rollo</span><span>Sin prisas</span><span>Lloret de Mar</span>
+    </div></div>
+    <div class="tape tape-mint"><div class="tape-track">
+      <span>Degradados</span><span>Corte + barba</span><span>Perfilado</span><span>Cejas</span><span>Limpieza facial</span><span>Degradados</span><span>Corte + barba</span><span>Perfilado</span><span>Cejas</span><span>Limpieza facial</span>
+      <span>Degradados</span><span>Corte + barba</span><span>Perfilado</span><span>Cejas</span><span>Limpieza facial</span><span>Degradados</span><span>Corte + barba</span><span>Perfilado</span><span>Cejas</span><span>Limpieza facial</span>
+    </div></div>
+  </div>
+
+  <!-- MANIFIESTO -->
+  <section class="manifesto" aria-labelledby="manifesto-title">
+    <div class="manifesto-inner">
+      <p class="eyebrow" id="manifesto-title">La casa</p>
+      <p class="manifesto-text">Aquí no vienes solo a cortarte el pelo. Vienes a echar una partida de <span class="hl-m">billar</span>, a coger el mando de la <span class="hl-p">Play</span> y a desconectar un rato con la familia. Y te vas <span class="hl-m">fresco</span>.</p>
+      <div class="manifesto-foot" data-reveal>
+        <p>Un equipo joven que trabaja con pasión y cuida cada detalle. Reserva online en Booksy o pásate y pregunta si hay hueco.</p>
+        <a class="link-arrow" href="#servicios">Ver servicios y precios <i>→</i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- POR DENTRO -->
+  <section class="features" aria-labelledby="features-title">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Por dentro</p>
+        <h2 class="display h-lg reveal-lines" id="features-title"><span class="ln"><span>Más que una</span></span><span class="ln"><span>barbería</span></span></h2>
+      </div>
+      <p class="lead" data-reveal>Paredes negras, grafitis, mesa de billar y la Play encendida. Un sitio donde apetece quedarse.</p>
+    </div>
+    <div class="feature-grid">
+      <figure class="feature" data-reveal>
+        <span class="feature-num">01</span>
+        <div class="feature-media"><img src="https://images.unsplash.com/photo-1572122250231-6532b3a3df61?auto=format&fit=crop&w=900&q=75" alt="Chico jugando al billar en una sala oscura" loading="lazy"></div>
+        <figcaption><h3>Billar</h3><p>Mesa de billar en el local para que la espera se pase volando.</p></figcaption>
+      </figure>
+      <figure class="feature" data-reveal>
+        <span class="feature-num">02</span>
+        <div class="feature-media"><img src="https://images.unsplash.com/photo-1519326844852-704caea5679e?auto=format&fit=crop&w=900&q=75" alt="Mando de PlayStation negro con luz de neón" loading="lazy"></div>
+        <figcaption><h3>Play</h3><p>Coge el mando y echa una partida mientras te toca.</p></figcaption>
+      </figure>
+      <figure class="feature" data-reveal>
+        <span class="feature-num">03</span>
+        <div class="feature-media"><img src="https://images.unsplash.com/photo-1735150950233-d8d10d5926a8?auto=format&fit=crop&w=900&q=75" alt="Primer plano de un degradado en la nuca recién hecho" loading="lazy"></div>
+        <figcaption><h3>Al detalle</h3><p>Te cortamos exactamente como lo pides, sin prisas y atentos a cada línea.</p></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="services on-bone" id="servicios" data-nav="light" aria-labelledby="services-title">
+    <div class="services-grid">
+      <div class="services-aside">
+        <p class="eyebrow">Servicios y precios</p>
+        <h2 class="display h-xl reveal-lines" id="services-title"><span class="ln"><span>La carta</span></span></h2>
+        <span class="tag" aria-hidden="true">precios claros</span>
+        <div class="svc-frame" aria-hidden="true">
+          <img class="is-active" src="https://images.unsplash.com/photo-1648221122323-572c13a31663?auto=format&fit=crop&w=1000&q=75" alt="" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1599011176306-4a96f1516d4d?auto=format&fit=crop&w=1000&q=75" alt="" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1733995471058-3d6ff2013de3?auto=format&fit=crop&w=1000&q=75" alt="" loading="lazy">
+          <span class="svc-frame-label">Cortes</span>
+        </div>
+      </div>
+
+      <div class="services-list">
+        <div class="svc-group" data-label="Cortes" data-reveal>
+          <div class="svc-group-head"><h3>Cortes</h3><span>05 servicios</span></div>
+          <ul class="svc-list">
+            <li class="svc"><a href="https://booksy.com/es-es/188473_la-casa-barbershop_barberia_50365_canyelles" target="_blank" rel="noopener"><span class="svc-name">Corte caballero<small>35 min</small></span><span class="svc-dots"></span><span class="svc-price">16 €</span></a></li>
+            <li class="svc"><a href="https://booksy.com/es-es/188473_la-casa-barbershop_barberia_50365_canyelles" target="_blank" rel="noopener"><span class="svc-name">Corte adolescentes<small>De 11 a 17 años · 35 min</small></span><span class="svc-dots"></span><span class="svc-price">15 €</span></a></li>
+            <li class="svc"><a href="https://booksy.com/es-es/188473_la-casa-barbershop_barberia_50365_canyelles" target="_blank" rel="noopener"><span class="svc-name">Corte niños<small>De 5 a 10 años · 30 min</small></span><span class="svc-dots"></span><span class="svc-price">12 €</span></a></li>
+            <li class="svc"><a href="https://booksy.com/es-es/188473_la-casa-barbershop_barberia_50365_canyelles" target="_blank" rel="noopener"><span class="svc-name">Corte jubilado<small>20 min</small></span><span class="svc-dots"></span><span class="svc-price">10 €</span></a></li>
+            <li class="svc"><a href="https://booksy.com/es-es/188473_la-casa-barbershop_barberia_50365_canyelles" target="_blank" rel="noopener"><span class="svc-name">Corte en festivos y Navidad<small>30 min</small></span><span class="svc-dots"></span><span class="svc-price">20 €</span></a></li>
+          </ul>
+        </div>
+
+        <div class="svc-group" data-label="Barba" data-reveal>
+          <div class="svc-group-head"><h3>Barba</h3><span>03 servicios</span></div>
+          <ul class="svc-list">
+            <li class="svc"><a href="https://booksy.com/es-es/188473_la-casa-barbershop_barberia_50365_canyelles" target="_blank" rel="noopener"><span class="svc-name">Corte + barba<small>45 min</small></span><span class="svc-dots"></span><span class="svc-price"><small>desde</small>22 €</span></a></li>
+            <li class="svc"><a href="https://booksy.com/es-es/188473_la-casa-barbershop_barberia_50365_canyelles" target="_blank" rel="noopener"><span class="svc-name">Corte + perfilado de perilla<small>40 min</small></span><span class="svc-dots"></span><span class="svc-price">19 €</span></a></li>
+            <li class="svc"><a href="https://booksy.com/es-es/188473_la-casa-barbershop_barberia_50365_canyelles" target="_blank" rel="noopener"><span class="svc-name">Barba + perfilado<small>10 min</small></span><span class="svc-dots"></span><span class="svc-price"><small>desde</small>7 €</span></a></li>
+          </ul>
+        </div>
+
+        <div class="svc-group" data-label="Extras" data-reveal>
+          <div class="svc-group-head"><h3>Extras</h3><span>02 servicios</span></div>
+          <ul class="svc-list">
+            <li class="svc"><a href="https://booksy.com/es-es/188473_la-casa-barbershop_barberia_50365_canyelles" target="_blank" rel="noopener"><span class="svc-name">Limpieza facial<small>Black mask + exfoliación · 40 min</small></span><span class="svc-dots"></span><span class="svc-price">30 €</span></a></li>
+            <li class="svc"><a href="https://booksy.com/es-es/188473_la-casa-barbershop_barberia_50365_canyelles" target="_blank" rel="noopener"><span class="svc-name">Arreglo de cejas<small>5 min</small></span><span class="svc-dots"></span><span class="svc-price">3 €</span></a></li>
+          </ul>
+        </div>
+
+        <div class="services-note" data-reveal>
+          <p>Precios actualizados de Booksy. Los marcados con «desde» dependen del trabajo. Al reservar eliges servicio y barbero.</p>
+          <a class="btn btn-ink" href="https://booksy.com/es-es/188473_la-casa-barbershop_barberia_50365_canyelles" target="_blank" rel="noopener"><span>Reservar en Booksy</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ESTILOS -->
+  <section class="work" id="estilos" aria-labelledby="work-title">
+    <div class="work-head">
+      <div>
+        <p class="eyebrow">Estilos</p>
+        <h2 class="display h-md reveal-lines" id="work-title"><span class="ln"><span>Tu corte,</span></span><span class="ln"><span class="c-mint">a medida</span></span></h2>
+      </div>
+      <p class="lead" data-reveal>Del skin fade más limpio al clásico de toda la vida. Tráenos una foto o déjate aconsejar.</p>
+    </div>
+    <div class="work-viewport">
+      <div class="work-track">
+        <figure class="shot"><div class="shot-media"><img src="https://images.unsplash.com/photo-1640301133857-c4bc5789c1bb?auto=format&fit=crop&w=800&q=75" alt="Barbero con gorra marcando un degradado a máquina" loading="lazy"></div><figcaption><b>01</b>Skin fade</figcaption></figure>
+        <figure class="shot"><div class="shot-media"><img src="https://images.unsplash.com/photo-1647140655214-e4a2d914971f?auto=format&fit=crop&w=800&q=75" alt="Corte con tijera dando textura arriba" loading="lazy"></div><figcaption><b>02</b>Textura con tijera</figcaption></figure>
+        <figure class="shot"><div class="shot-media"><img src="https://images.unsplash.com/photo-1635273051839-003bf06a8751?auto=format&fit=crop&w=800&q=75" alt="Degradado bajo en la nuca hecho con máquina" loading="lazy"></div><figcaption><b>03</b>Low fade</figcaption></figure>
+        <figure class="shot"><div class="shot-media"><img src="https://images.unsplash.com/photo-1783908688260-0c47404926f3?auto=format&fit=crop&w=800&q=75" alt="Barbero con guantes negros repasando el corte" loading="lazy"></div><figcaption><b>04</b>Repaso a navaja</figcaption></figure>
+        <figure class="shot"><div class="shot-media"><img src="https://images.unsplash.com/photo-1640301133543-41fe25ad6450?auto=format&fit=crop&w=800&q=75" alt="Cliente con corte corto clásico recién terminado" loading="lazy"></div><figcaption><b>05</b>Crop clásico</figcaption></figure>
+        <figure class="shot"><div class="shot-media"><img src="https://images.unsplash.com/photo-1669568921948-f0346e0ee73e?auto=format&fit=crop&w=800&q=75" alt="Perfilado del contorno con máquina" loading="lazy"></div><figcaption><b>06</b>Perfilado</figcaption></figure>
+        <div class="shot">
+          <div class="shot-cta">
+            <span class="tag" style="color: var(--ink)">¿te animas?</span>
+            <p class="display">Tu próximo corte empieza aquí</p>
+            <a class="btn btn-ink" href="https://booksy.com/es-es/188473_la-casa-barbershop_barberia_50365_canyelles" target="_blank" rel="noopener"><span>Reservar</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EQUIPO -->
+  <section class="team" id="equipo" aria-labelledby="team-title">
+    <div class="team-bg" aria-hidden="true"><img src="https://images.unsplash.com/photo-1772183306114-68c56f99e798?auto=format&fit=crop&w=2000&q=70" alt="" loading="lazy"></div>
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">El equipo</p>
+        <h2 class="display h-lg reveal-lines" id="team-title"><span class="ln"><span>La familia</span></span></h2>
+      </div>
+      <p class="lead" data-reveal>Gente joven, con oficio y muchas ganas. Al reservar en Booksy eliges con quién quieres cortarte.</p>
+    </div>
+    <div class="team-grid">
+      <article class="member" data-reveal>
+        <span class="member-letter" aria-hidden="true">G</span>
+        <div>
+          <span class="member-role">Barbero · al frente de la casa</span>
+          <h3>Gabi</h3>
+          <p>Habilidad y mucha experiencia. Los clientes de siempre repiten cada pocas semanas con él.</p>
+        </div>
+        <a class="link-arrow" href="https://booksy.com/es-es/188473_la-casa-barbershop_barberia_50365_canyelles" target="_blank" rel="noopener">Reservar con Gabi <i>→</i></a>
+      </article>
+      <article class="member" data-reveal>
+        <span class="member-letter" aria-hidden="true">T</span>
+        <div>
+          <span class="member-role">Barbero</span>
+          <h3>Tomy</h3>
+          <p>Profesional, atento y con mano para todas las edades, de los peques a los adolescentes.</p>
+        </div>
+        <a class="link-arrow" href="https://booksy.com/es-es/188473_la-casa-barbershop_barberia_50365_canyelles" target="_blank" rel="noopener">Reservar con Tomy <i>→</i></a>
+      </article>
+    </div>
+  </section>
+
+  <!-- CIFRAS -->
+  <section class="stats" data-nav="mint" aria-label="La Casa en cifras">
+    <div class="stats-grid">
+      <div class="stat" data-reveal><strong><span data-count="4.9" data-decimals="1">4,9</span><sup>★</sup></strong><span>Valoración en Booksy</span></div>
+      <div class="stat" data-reveal><strong><span data-count="49">49</span></strong><span>Opiniones en Google</span></div>
+      <div class="stat" data-reveal><strong><span data-count="6">6</span></strong><span>Días abiertos a la semana</span></div>
+      <div class="stat" data-reveal><strong><span data-count="16">16</span><sup>€</sup></strong><span>Corte caballero</span></div>
+    </div>
+  </section>
+
+  <!-- OPINIONES -->
+  <section class="reviews" id="opiniones" aria-labelledby="reviews-title">
+    <div class="reviews-inner">
+      <p class="eyebrow" id="reviews-title">Opiniones</p>
+      <figure class="quote">
+        <blockquote class="reveal-lines">
+          <span class="ln"><span><span class="mark">“</span>El mejor sitio</span></span>
+          <span class="ln"><span>de Lloret! Profesionales,</span></span>
+          <span class="ln"><span>atentos y muy buena</span></span>
+          <span class="ln"><span>gente!<span class="mark">”</span></span></span>
+        </blockquote>
+        <figcaption data-reveal><b>José Luis</b> · Cliente verificado en Booksy · Corte + barba</figcaption>
+      </figure>
+      <div class="reviews-grid">
+        <div data-reveal>
+          <h3>Lo que más se repite en las reseñas</h3>
+          <div class="chips">
+            <span class="chip">Trato cercano</span>
+            <span class="chip">Muy profesionales</span>
+            <span class="chip">Te atienden rápido</span>
+            <span class="chip">Calidad-precio</span>
+            <span class="chip">Billar y Play</span>
+            <span class="chip">Local limpio</span>
+            <span class="chip">Los peques salen encantados</span>
+          </div>
+        </div>
+        <div class="scores" data-reveal>
+          <a class="score" href="https://booksy.com/es-es/188473_la-casa-barbershop_barberia_50365_canyelles" target="_blank" rel="noopener">
+            <strong>4,9</strong><div><b>Booksy</b><span>Clientes verificados</span></div><i>→</i>
+          </a>
+          <a class="score" href="https://www.google.com/maps/place/La+Casa+Barbershop/@41.7048872,2.8428469,17z/data=!4m6!3m5!1s0x12bb17415098ed09:0x13013de6dab8c31d!8m2!3d41.7048872!4d2.8428469!16s%2Fg%2F11vprk76v_" target="_blank" rel="noopener">
+            <strong>4,4</strong><div><b>Google</b><span>49 opiniones</span></div><i>→</i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VISÍTANOS -->
+  <section class="visit" id="visitanos" aria-labelledby="visit-title">
+    <div class="visit-grid">
+      <div class="visit-info">
+        <p class="eyebrow">Visítanos</p>
+        <h2 class="display h-lg reveal-lines" id="visit-title"><span class="ln"><span>Pásate</span></span><span class="ln"><span>por casa</span></span></h2>
+        <address class="address" data-reveal>
+          Carrer de l'Aiguaviva, 4<br>17310 Lloret de Mar, Girona<br>
+          <a href="tel:+34655227207">655 22 72 07</a>
+        </address>
+        <div data-reveal>
+          <span class="status js-status"><i></i><span>Lunes a sábado</span></span>
+          <ul class="hours">
+            <li data-day="1"><span>Lunes</span><span>9:30–13:30 · 16:00–20:30</span></li>
+            <li data-day="2"><span>Martes</span><span>9:30–13:30 · 16:00–20:30</span></li>
+            <li data-day="3"><span>Miércoles</span><span>9:30–13:30 · 16:00–20:30</span></li>
+            <li data-day="4"><span>Jueves</span><span>9:30–13:30 · 16:00–20:30</span></li>
+            <li data-day="5"><span>Viernes</span><span>9:30–13:30 · 16:00–20:30</span></li>
+            <li data-day="6"><span>Sábado</span><span>9:30–13:30 · 16:00–20:30</span></li>
+            <li data-day="0" class="is-closed"><span>Domingo</span><span>Cerrado</span></li>
+          </ul>
+          <div class="visit-badges"><span>LGBTQ+ friendly</span><span>Reserva online</span><span>Niños bienvenidos</span></div>
+          <div class="visit-ctas">
+            <a class="btn btn-mint" href="https://www.google.com/maps/dir/?api=1&destination=La+Casa+Barbershop%2C+Carrer+de+l%27Aiguaviva+4%2C+17310+Lloret+de+Mar" target="_blank" rel="noopener"><span>Cómo llegar</span></a>
+            <a class="btn btn-ghost" href="tel:+34655227207"><span>Llamar</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="map" data-reveal>
+        <iframe title="Mapa de La Casa Barbershop en Lloret de Mar" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=La+Casa+Barbershop,+Carrer+de+l%27Aiguaviva+4,+17310+Lloret+de+Mar&z=16&output=embed"></iframe>
+        <span class="map-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>La Casa Barbershop</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta" aria-labelledby="cta-title">
+    <div class="cta-bg" aria-hidden="true"><img src="https://images.unsplash.com/photo-1557349800-5b9b168f3f53?auto=format&fit=crop&w=2000&q=70" alt="" loading="lazy"></div>
+    <div class="cta-inner">
+      <h2 class="display cta-title reveal-lines" id="cta-title"><span class="ln"><span>¿Te toca</span></span><span class="ln"><span class="c-mint">corte?</span></span></h2>
+      <span class="tag cta-tag" aria-hidden="true">estás en casa</span>
+      <p data-reveal>Reserva en dos clics, elige barbero y ven a pasar un buen rato. Te esperamos en Lloret.</p>
+      <div class="cta-actions" data-reveal>
+        <a class="btn btn-mint" href="https://booksy.com/es-es/188473_la-casa-barbershop_barberia_50365_canyelles" target="_blank" rel="noopener"><span>Reservar en Booksy</span></a>
+        <a class="btn btn-ghost" href="tel:+34655227207"><span>Llamar · 655 22 72 07</span></a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-intro">
+      <a class="brand" href="#top" aria-label="La Casa Barbershop, volver arriba">
+        <svg class="brand-mark" viewBox="0 0 40 30" aria-hidden="true"><path d="M3 15 20 3l17 12"/><path class="door" d="M10 15v12h20V15"/></svg>
+        <span class="brand-word">La Casa</span>
+        <span class="brand-sub">barbershop</span>
+      </a>
+      <p>Barbería en Lloret de Mar. Degradados, barba y buen rollo, con billar y Play mientras esperas.</p>
+    </div>
+    <div>
+      <h4>Dirección</h4>
+      <p>Carrer de l'Aiguaviva, 4<br>17310 Lloret de Mar</p>
+    </div>
+    <div>
+      <h4>Horario</h4>
+      <p>Lunes a sábado<br>9:30–13:30 · 16:00–20:30<br>Domingo cerrado</p>
+    </div>
+    <div>
+      <h4>Contacto</h4>
+      <ul>
+        <li><a href="tel:+34655227207">655 22 72 07</a></li>
+        <li><a href="https://booksy.com/es-es/188473_la-casa-barbershop_barberia_50365_canyelles" target="_blank" rel="noopener">Booksy</a></li>
+        <li><a href="https://www.google.com/maps/place/La+Casa+Barbershop/@41.7048872,2.8428469,17z/data=!4m6!3m5!1s0x12bb17415098ed09:0x13013de6dab8c31d!8m2!3d41.7048872!4d2.8428469!16s%2Fg%2F11vprk76v_" target="_blank" rel="noopener">Google Maps</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-word" aria-hidden="true">La Casa</div>
+  <div class="footer-bottom">
+    <span>© <span id="year">2026</span> La Casa Barbershop · Lloret de Mar</span>
+    <a href="#top">Volver arriba ↑</a>
+  </div>
+</footer>
+
+<div class="mbar" aria-label="Acciones rápidas">
+  <a class="btn btn-mint" href="https://booksy.com/es-es/188473_la-casa-barbershop_barberia_50365_canyelles" target="_blank" rel="noopener"><span>Reservar</span></a>
+  <a class="btn btn-ghost" href="tel:+34655227207"><span>Llamar</span></a>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script>
+(function () {
+  'use strict';
+  var html = document.documentElement;
+  var $ = function (s, c) { return (c || document).querySelector(s); };
+  var $$ = function (s, c) { return Array.prototype.slice.call((c || document).querySelectorAll(s)); };
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var hasGsap = !!(window.gsap && window.ScrollTrigger);
+  var lenis = null;
+
+  // ---------- Año del pie ----------
+  var year = $('#year');
+  if (year) year.textContent = new Date().getFullYear();
+
+  // ---------- Abierto / cerrado (hora de Madrid) ----------
+  (function hours() {
+    var slots = [[], [[570, 810], [960, 1230]], [[570, 810], [960, 1230]], [[570, 810], [960, 1230]], [[570, 810], [960, 1230]], [[570, 810], [960, 1230]], [[570, 810], [960, 1230]]];
+    var names = ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'];
+    var fmt = function (m) { return Math.floor(m / 60) + ':' + ('0' + (m % 60)).slice(-2); };
+    var now;
+    try {
+      var parts = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Madrid', weekday: 'short', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).formatToParts(new Date());
+      var o = {};
+      parts.forEach(function (p) { o[p.type] = p.value; });
+      now = { d: { Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6 }[o.weekday], m: parseInt(o.hour, 10) * 60 + parseInt(o.minute, 10) };
+    } catch (e) {
+      var dt = new Date();
+      now = { d: dt.getDay(), m: dt.getHours() * 60 + dt.getMinutes() };
+    }
+    if (now.d === undefined || isNaN(now.m)) return;
+
+    var open = false, text = '';
+    slots[now.d].forEach(function (s) { if (now.m >= s[0] && now.m < s[1]) { open = true; text = 'Abierto ahora · cierra a las ' + fmt(s[1]); } });
+    if (!open) {
+      var later = slots[now.d].filter(function (s) { return s[0] > now.m; })[0];
+      if (later) {
+        text = 'Cerrado ahora · abre hoy a las ' + fmt(later[0]);
+      } else {
+        for (var i = 1; i <= 7; i++) {
+          var d = (now.d + i) % 7;
+          if (slots[d].length) { text = 'Cerrado ahora · abre ' + (i === 1 ? 'mañana' : 'el ' + names[d]) + ' a las ' + fmt(slots[d][0][0]); break; }
+        }
+      }
+    }
+    $$('.js-status').forEach(function (el) {
+      el.classList.toggle('is-open', open);
+      el.querySelector('span').textContent = text;
+    });
+    var today = $('.hours li[data-day="' + now.d + '"]');
+    if (today) today.classList.add('is-today');
+  })();
+
+  // ---------- Menú móvil ----------
+  var menuBtn = $('.menu-btn');
+  function setMenu(open) {
+    html.classList.toggle('menu-open', open);
+    menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    menuBtn.setAttribute('aria-label', open ? 'Cerrar menú' : 'Abrir menú');
+    if (lenis) { open ? lenis.stop() : lenis.start(); }
+  }
+  menuBtn.addEventListener('click', function () { setMenu(!html.classList.contains('menu-open')); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && html.classList.contains('menu-open')) setMenu(false); });
+
+  // ---------- Anclas ----------
+  $$('a[href^="#"]').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      var id = a.getAttribute('href');
+      var target = id === '#top' ? document.body : $(id);
+      if (!target) return;
+      e.preventDefault();
+      if (html.classList.contains('menu-open')) setMenu(false);
+      if (lenis) lenis.scrollTo(id === '#top' ? 0 : target, { duration: 1.4 });
+      else if (id === '#top') window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' });
+      else target.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth' });
+    });
+  });
+
+  // ---------- Imagen de servicios según grupo ----------
+  var frames = $$('.svc-frame img');
+  var frameLabel = $('.svc-frame-label');
+  var groups = $$('.svc-group');
+  function setGroup(i) {
+    frames.forEach(function (f, j) { f.classList.toggle('is-active', j === i); });
+    if (frameLabel && groups[i]) frameLabel.textContent = groups[i].getAttribute('data-label');
+  }
+  groups.forEach(function (g, i) {
+    g.addEventListener('mouseenter', function () { setGroup(i); });
+    g.addEventListener('focusin', function () { setGroup(i); });
+  });
+
+  // ---------- Sin GSAP: todo visible y sin preloader ----------
+  if (!hasGsap) {
+    html.classList.remove('is-loading', 'motion');
+    $$('.mbar').forEach(function (b) { b.classList.add('is-on'); });
+    return;
+  }
+
+  gsap.registerPlugin(ScrollTrigger);
+  var header = $('#header');
+
+  // Cabecera: fondo al bajar, se esconde al bajar y vuelve al subir
+  ScrollTrigger.create({
+    start: 0,
+    end: 'max',
+    onUpdate: function (self) {
+      var y = self.scroll();
+      header.classList.toggle('is-scrolled', y > 40);
+      header.classList.toggle('is-hidden', self.direction === 1 && y > 320 && !html.classList.contains('menu-open'));
+    }
+  });
+  // Cabecera en color oscuro sobre secciones claras
+  $$('[data-nav]').forEach(function (sec) {
+    var cls = sec.getAttribute('data-nav') === 'mint' ? 'on-mint' : 'on-light';
+    ScrollTrigger.create({
+      trigger: sec,
+      start: 'top 36px',
+      end: 'bottom 36px',
+      onToggle: function (self) {
+        header.classList.toggle(cls, self.isActive);
+        if (cls === 'on-mint') header.classList.toggle('on-light', self.isActive);
+      }
+    });
+  });
+  // Servicios: cambia la foto al pasar por cada grupo (útil en táctil)
+  groups.forEach(function (g, i) {
+    ScrollTrigger.create({ trigger: g, start: 'top 60%', end: 'bottom 60%', onToggle: function (self) { if (self.isActive) setGroup(i); } });
+  });
+  // Barra fija de móvil
+  var mbar = $('.mbar');
+  ScrollTrigger.create({
+    trigger: '.hero',
+    start: 'bottom 70%',
+    endTrigger: '.cta',
+    end: 'top 60%',
+    onToggle: function (self) { mbar.classList.toggle('is-on', self.isActive); }
+  });
+
+  if (reduce) {
+    html.classList.remove('is-loading');
+    return;
+  }
+
+  // ---------- Scroll suave (Lenis) ----------
+  if (window.Lenis) {
+    lenis = new Lenis({ lerp: 0.1, smoothWheel: true });
+    lenis.on('scroll', ScrollTrigger.update);
+    gsap.ticker.add(function (t) { lenis.raf(t * 1000); });
+    gsap.ticker.lagSmoothing(0);
+    lenis.stop();
+  }
+
+  // ---------- Intro del hero ----------
+  var heroTl = gsap.timeline({ paused: true, defaults: { ease: 'expo.out' } })
+    .from('.hero-media', { scale: 1.18, opacity: 0, duration: 2 }, 0)
+    .from('.hero-title .ln > span', { yPercent: 115, duration: 1.3, stagger: 0.1 }, 0.1)
+    .from('.hero-eyebrow', { y: 20, opacity: 0, duration: 1 }, 0.35)
+    .from('.hero-tag', { scale: 0.4, rotate: -30, opacity: 0, duration: 0.9, ease: 'back.out(2.2)' }, 0.7)
+    .from('.hero-foot', { y: 30, opacity: 0, duration: 1.1 }, 0.55)
+    .from('.hero-foot', { borderTopColor: 'rgba(243,239,230,0)', duration: 1.2 }, 0.6)
+    .from('.hero-scroll', { opacity: 0, duration: 1 }, 1)
+    .from('.header', { opacity: 0, duration: 1, clearProps: 'opacity' }, 0.5);
+
+  var finished = false;
+  function finishLoading() {
+    if (finished) return;
+    finished = true;
+    html.classList.remove('is-loading');
+    if (lenis) lenis.start();
+    if (heroTl.progress() === 0) heroTl.play();
+    ScrollTrigger.refresh();
+  }
+
+  if (html.classList.contains('is-loading')) {
+    var counter = { v: 0 };
+    var countEl = $('.loader-count');
+    gsap.timeline({ onComplete: finishLoading })
+      .from('.loader-word span', { yPercent: 110, duration: 0.9, stagger: 0.05, ease: 'expo.out' })
+      .from('.loader-tag', { opacity: 0, scale: 0.5, rotate: -25, duration: 0.6, ease: 'back.out(2.4)' }, 0.5)
+      .to(counter, { v: 100, duration: 1.5, ease: 'power2.inOut', onUpdate: function () { countEl.textContent = Math.round(counter.v); } }, 0)
+      .to('.loader-word span', { yPercent: -110, duration: 0.6, stagger: 0.03, ease: 'expo.in' }, '+=0.1')
+      .to('.loader-tag, .loader-foot', { opacity: 0, duration: 0.3 }, '<')
+      .to('.loader', { clipPath: 'inset(0% 0% 100% 0%)', duration: 0.9, ease: 'expo.inOut' }, '-=0.15')
+      .add(function () { heroTl.play(); }, '-=0.6');
+    // Si el preloader se quita por el temporizador de seguridad, arranca igualmente
+    setTimeout(finishLoading, 6200);
+  } else {
+    finishLoading();
+  }
+
+  // ---------- Parallax del hero ----------
+  gsap.to('.hero-media img', {
+    yPercent: 10,
+    ease: 'none',
+    scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true }
+  });
+  gsap.to('.hero-inner', {
+    y: -60,
+    opacity: 0.2,
+    ease: 'none',
+    scrollTrigger: { trigger: '.hero', start: '30% top', end: 'bottom top', scrub: true }
+  });
+
+  // ---------- Titulares línea a línea ----------
+  $$('.reveal-lines').forEach(function (el) {
+    gsap.from($$('.ln > span', el), {
+      yPercent: 115,
+      duration: 1.2,
+      stagger: 0.09,
+      ease: 'expo.out',
+      scrollTrigger: { trigger: el, start: 'top 86%' }
+    });
+  });
+
+  // ---------- Aparición suave ----------
+  $$('[data-reveal]').forEach(function (el) {
+    gsap.from(el, {
+      y: 44,
+      opacity: 0,
+      duration: 1.1,
+      ease: 'expo.out',
+      scrollTrigger: { trigger: el, start: 'top 90%' }
+    });
+  });
+
+  // ---------- Manifiesto: las palabras se encienden con el scroll ----------
+  var manifesto = $('.manifesto-text');
+  if (manifesto) {
+    (function split(node) {
+      Array.prototype.slice.call(node.childNodes).forEach(function (child) {
+        if (child.nodeType === 3) {
+          var frag = document.createDocumentFragment();
+          child.textContent.split(/(\s+)/).forEach(function (part) {
+            if (!part) return;
+            if (/^\s+$/.test(part)) { frag.appendChild(document.createTextNode(part)); return; }
+            var w = document.createElement('span');
+            w.className = 'w';
+            w.textContent = part;
+            frag.appendChild(w);
+          });
+          node.replaceChild(frag, child);
+        } else if (child.nodeType === 1) {
+          split(child);
+        }
+      });
+    })(manifesto);
+    gsap.to($$('.w', manifesto), {
+      opacity: 1,
+      stagger: 0.1,
+      ease: 'none',
+      scrollTrigger: { trigger: manifesto, start: 'top 82%', end: 'bottom 48%', scrub: true }
+    });
+  }
+
+  // ---------- Parallax de imágenes ----------
+  $$('.feature-media img, .team-bg img, .cta-bg img').forEach(function (img) {
+    gsap.fromTo(img, { yPercent: -8 }, {
+      yPercent: 0,
+      ease: 'none',
+      scrollTrigger: { trigger: img.parentElement, start: 'top bottom', end: 'bottom top', scrub: true }
+    });
+  });
+
+  // ---------- Cintas: reaccionan a la velocidad del scroll ----------
+  gsap.fromTo('.tape-mint', { xPercent: 3 }, { xPercent: -3, ease: 'none', scrollTrigger: { trigger: '.tapes', start: 'top bottom', end: 'bottom top', scrub: true } });
+  gsap.fromTo('.tape-pink', { xPercent: -3 }, { xPercent: 3, ease: 'none', scrollTrigger: { trigger: '.tapes', start: 'top bottom', end: 'bottom top', scrub: true } });
+
+  // ---------- Contadores ----------
+  $$('[data-count]').forEach(function (el) {
+    var target = parseFloat(el.getAttribute('data-count'));
+    var dec = parseInt(el.getAttribute('data-decimals') || '0', 10);
+    var obj = { v: 0 };
+    var render = function () { el.textContent = obj.v.toLocaleString('es-ES', { minimumFractionDigits: dec, maximumFractionDigits: dec }); };
+    render();
+    gsap.to(obj, {
+      v: target,
+      duration: 1.8,
+      ease: 'power3.out',
+      onUpdate: render,
+      scrollTrigger: { trigger: el, start: 'top 90%' }
+    });
+  });
+
+  // ---------- Galería horizontal fijada (escritorio) ----------
+  var mm = gsap.matchMedia();
+  mm.add('(min-width: 900px)', function () {
+    var track = $('.work-track');
+    var distance = function () { return Math.max(0, track.scrollWidth - document.documentElement.clientWidth); };
+    gsap.to(track, {
+      x: function () { return -distance(); },
+      ease: 'none',
+      scrollTrigger: {
+        trigger: '.work',
+        start: 'top top',
+        end: function () { return '+=' + distance(); },
+        pin: true,
+        scrub: 0.8,
+        invalidateOnRefresh: true
+      }
+    });
+  });
+
+  // Recalcula cuando cargan fuentes e imágenes
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { ScrollTrigger.refresh(); });
+  window.addEventListener('load', function () { ScrollTrigger.refresh(); });
+})();
+</script>
+</body>
+</html>
